@@ -59,19 +59,7 @@ rawdbs:
         # source is a short-name identifying the pipeline source being
         # a 'db-extractor (db)', an 'Azure Function (az-func)',
         # or 'Azure Data Factory (adf)', 'Python script (py)', ..
-                - source: ice-cream-factory-datapoints-extractor
-                  schedule: On trigger
-                  contacts:
-                      - name: Raj
-                        email: raj@slb.com
-                        role: Bootcamp 11 Administrator
-                        send-notification: false
-          - rawtable-name: timeseries
-            pipelines:
-        # source is a short-name identifying the pipeline source being
-        # a 'db-extractor (db)', an 'Azure Function (az-func)',
-        # or 'Azure Data Factory (adf)', 'Python script (py)', ..
-                - source: ice-cream-factory-timeseries-extractor
+                - source: ice-cream-api
                   schedule: On trigger
                   contacts:
                       - name: Raj
