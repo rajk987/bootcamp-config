@@ -14,7 +14,6 @@ cognite: # kwargs to pass to the CogniteClient, Environment variable format: ${E
             - ${EXTPIPES_IDP_SCOPES}
         token_url: ${EXTPIPES_IDP_TOKEN_URL}
 
- 
 logger:
     file:
         path: ./logs/extpipes-deploy.log
