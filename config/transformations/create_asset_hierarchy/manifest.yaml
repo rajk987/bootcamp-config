@@ -9,6 +9,9 @@ destination:
 ignoreNullFields: true
 shared: true
 action: upsert
+schedule:
+    interval: 14,29,44,59 * * * *
+    isPaused: false
 dataSetExternalId: src:001:sap:ds
 authentication:
     clientId: ${COGNITE_CLIENT_ID}
