@@ -14,4 +14,3 @@
     Dataset_id('src:001:sap:ds') AS dataSetId
   FROM
     `src:001:sap:db`.assets
-
