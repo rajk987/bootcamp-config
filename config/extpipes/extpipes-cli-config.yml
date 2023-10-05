@@ -31,7 +31,7 @@ default-contacts:
       role: <Role name>
       send-notification: true
 
-rawdbs: 
+rawdbs:
   # list of raw-dbs > containing rawtables > containing pipelines
     - rawdb-name: src:001:sap:db
       dataset-external-id: src:001:sap:ds
